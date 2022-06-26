@@ -1,3 +1,5 @@
+package Celsius_To_Farenheit;
+
 import java.util.Scanner;
 
 public class CelsiusToFarenheit {
