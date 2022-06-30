@@ -7,14 +7,19 @@ public class Enhanced_switch {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a day number: ");
         int day = in.nextInt();
+        int feature = in.nextInt();
 
-        switch (day) {
+        switch (day){
             case 1:
                 System.out.println("Monday");
                 break;
             case 2:
                 System.out.println("Tuesday");
-                break;
+                switch (feature) {                             //enhanced switch and nested switch
+                    case 1 -> System.out.println("good day");
+                    case 2 -> System.out.println("nice day");
+                    default -> System.out.println("Enter valid number ");
+                }break; //this break is important so next case dont execute
             case 3:
                 System.out.println("Wednesday");
                 break;
@@ -29,6 +34,8 @@ public class Enhanced_switch {
             case 7:
                 System.out.println("Sunday");
                 break;
+            default:
+                System.out.println("enter valid day number");
         }
     }
 }
