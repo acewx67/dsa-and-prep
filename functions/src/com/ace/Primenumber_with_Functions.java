@@ -17,6 +17,9 @@ public class Primenumber_with_Functions {
         int n = 2;
         String isPrime = num + " is a prime number.";
         String notPrime = num + " is NOT a prime number.";
+        if(num <= 1){           //1 is not a prime number
+            return notPrime;
+        }
        double sqrt_of_num = Math.sqrt(num);
         while(n <= sqrt_of_num){
             if(num % n == 0){
