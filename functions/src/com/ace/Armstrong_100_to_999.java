@@ -12,7 +12,7 @@ public class Armstrong_100_to_999 {
         int cubed_val = 0;
 
         while(number < 1000){
-            int sum = 0;
+            int sum = 0;  //so that sum is always 0 before starting the next while loop
             num = number;
             while(num > 0){
                 last_digit = num % 10;
