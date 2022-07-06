@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArrayList_ {
     public static void main(String[] args) {
-        ArrayList <Integer> list = new ArrayList<>();
+        ArrayList <Integer> list = new ArrayList<>();  //syntax
         Scanner in = new Scanner(System.in);
         
         //input
@@ -17,6 +17,7 @@ public class ArrayList_ {
 
         }
         System.out.println(list); //or just use this
+
         
 
     }
