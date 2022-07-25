@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RBS_withDuplicateElements {
     public static void main(String[] args) {
-        int[] arr = {4, 5,5,5,5,5, 6, 1, 2,3};
+        int[] arr = {4, 5,5,5,5,5, 6, 1, 2,2,2,3};
         int target = 5;
         System.out.println(findPivot(arr));
         System.out.println(search(arr,target));

@@ -1,17 +1,16 @@
 package com.ace;
-//https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
-public class RotatedBinarySearch {
+
+public class RBS_DupElements {
     public static void main(String[] args) {
-        int[] arr = {2,3,4,5,0,1};
-        int target = 0;
+        int[] arr = {2,2,3,9,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2};
+        int target = 3;
         System.out.println(findPivot(arr));
         System.out.println(search(arr,target));
-
     }
-
     static int findPivot(int[] arr) {
+
         int start = 0;
-        int end = arr.length - 1; 
+        int end = arr.length - 1;
         int mid = 0;
 
         while (start <= end) {
@@ -22,28 +21,24 @@ public class RotatedBinarySearch {
             if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
             }
-            if (arr[mid] <= arr[start]) {
+            //if start==mid==end elements
+            if(arr[start]==arr[mid] && arr[mid]==arr[end]){
+                if(arr[start]>arr[start+1]){  //check if start and end elements are not pivot
+                    return start;
+                }
+                start++;
+                if(arr[end] < arr[end-1]){
+                    return end-1;
+                }
+                end--;
+            }
+            if(arr[start] < arr[mid] || arr[mid]==arr[start] && arr[mid]>arr[end]){
+                start = mid+1;
+            }else {
                 end = mid - 1;
-            } else start = mid + 1;
+            }
         }
         return -1; //if pivot is not returned in while loop
-    }
-
-    static int BinarySearch(int[] arr, int target,int start, int end) {
-        int mid = 0;
-        while (start <= end) {
-            mid = (start + end) / 2;
-            if (arr[mid] == target) {
-                return mid;
-            }
-            if (arr[mid] < target) {
-                start = mid + 1;
-            }
-            if (arr[mid] > target) {
-                end = mid - 1;
-            }
-        }
-        return -1;
     }
     static int search(int []arr,int target){
         int pivot = findPivot(arr);
@@ -63,5 +58,21 @@ public class RotatedBinarySearch {
             return BinarySearch(arr,target,0, pivot-1); //pivot-1 coz ,if target was pivot it would be caught in first 'if' condition
         }
         return -1; //target not found in rotated-array
+    }
+    static int BinarySearch(int[] arr, int target,int start, int end) {
+        int mid = 0;
+        while (start <= end) {
+            mid = (start + end) / 2;
+            if (arr[mid] == target) {
+                return mid;
+            }
+            if (arr[mid] < target) {
+                start = mid + 1;
+            }
+            if (arr[mid] > target) {
+                end = mid - 1;
+            }
+        }
+        return -1;
     }
 }
