@@ -25,9 +25,6 @@ public class SelectionSort {
             swap(arr,max_pos,end);
             selection(arr,0,end-1,Integer.MIN_VALUE,max_pos);
         }
-
-
-
     }
     static void swap(int []arr,int i1,int i2){
         int temp = arr[i1];

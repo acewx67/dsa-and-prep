@@ -3,7 +3,7 @@ package com.ace;
 public class TrianglePattern {
     public static void main(String[] args) {
         int n = 7;
-        triangleKunal(7,0);
+        triangleKunal2(7,0);
     }
     static void triangle(int n){
         if(n == 0){
