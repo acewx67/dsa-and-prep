@@ -4,6 +4,7 @@ public class SkipSubString {
     public static void main(String[] args) {
         String str = "appbappbacappledef";
         System.out.println(skipAppNotApple(str));
+//        System.out.println(skipApple(str));
     }
     static String skipApple(String str){
         if(str.isEmpty()){
