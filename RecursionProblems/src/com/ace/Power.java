@@ -5,7 +5,7 @@ public class Power {
         int x = 2;
         int n = 24;
 //        System.out.println(power(x,n));
-        System.out.println(logarthmic(2,24));
+        System.out.println(logarthmic(2,10));
     }
     static int power(int x,int n){
         if(n == 1){
@@ -17,11 +17,11 @@ public class Power {
         if(n == 0){
             return 1;
         }
-        if(n % 2 == 0){
-            return logarthmic(x,n/2) * logarthmic(x,n/2);
+        int xpnb2 = logarthmic(x,n/2);
+        int xn = xpnb2 * xpnb2;
+        if(n % 2 == 1){
+            xn = xn * x;
         }
-        else{
-            return logarthmic(x,n/2) * logarthmic(x,n/2) * x;
-        }
+        return xn;
     }
 }
