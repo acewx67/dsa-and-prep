@@ -15,8 +15,5 @@ public class Subsets {
         list.add(p + up.charAt(0));
         subsets(up.substring(1),p + up.charAt(0),list);
         subsets(up.substring(1),p,list);
-
-
-
     }
 }
