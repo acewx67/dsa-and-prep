@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6169f6dc-803c-4292-96f6-79501994ac3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ace/Sqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecursionReloaded/src/com/ace/PrintIncDec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FibonacciOptDynamicProgramming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FindPivotIndex724.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FindPivotIndex724Opt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/MajorityElement169.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/PascalTrianglePractise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/PascalsTriangle118.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/RemoveDuplicatesfromSortedArray26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/SquaresofaSortedArray977.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Map/src/com/ace/medium/SubarraySumEqualsK560.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Map/src/com/ace/medium/SubarraySumEqualsK560.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/Factors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/GCD_LCM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathDSA/src/com/ace/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/src/com/ace/Factors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathDSA/src/com/ace/GCD_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/src/com/ace/GCD_LCM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionReloaded/out/production/RecursionReloaded/com/ace/Mis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecursionReloaded/src/com/ace/SubsetsArray.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HV9BHL32M7KpWmGINcZB6gcR10" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.GUI">
+    <configuration name="Asdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.Asdd" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asdfacac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.Asdfacac" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.GUI" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.Prob" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.Sqrt" />
+      <module name="OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.Asdfacac" />
+        <item itemvalue="Application.Asdd" />
+        <item itemvalue="Application.Sqrt" />
+        <item itemvalue="Application.Prob" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6169f6dc-803c-4292-96f6-79501994ac3b" name="Changes" comment="" />
+      <created>1668359250051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668359250051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
