@@ -4,18 +4,21 @@ import java.util.ArrayList;
 
 public class Factors {
     public static void main(String[] args) {
-        int n = 40;
-        factor(n);
+        int n = 30240;
+        factors(n);
 
     }
     // Complexity = O(n)
     static void factors(int n){
 //        ArrayList<Integer> list = new ArrayList<>();
+        int c =0;
         for (int i = 1; i <= n ; i++) {
             if(n % i == 0){
                 System.out.print(i + " ");
+                c++;
             }
         }
+        System.out.println(c);
     }
     //Complexity = O(sqrt(n))
     static void factor(int n){
