@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6169f6dc-803c-4292-96f6-79501994ac3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ace/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RecursionReloaded/src/com/ace/PrintIncDec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FibonacciOptDynamicProgramming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FindPivotIndex724.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/FindPivotIndex724Opt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/MajorityElement169.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/MergeIntervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/PascalTrianglePractise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/PascalsTriangle118.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/RemoveDuplicatesfromSortedArray26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/out/production/LeetcodeFraz/com/ace/SquaresofaSortedArray977.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Map/src/com/ace/medium/SubarraySumEqualsK560.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Map/src/com/ace/medium/SubarraySumEqualsK560.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/Factors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathDSA/out/production/MathDSA/com/ace/GCD_LCM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathDSA/src/com/ace/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/src/com/ace/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MathDSA/src/com/ace/GCD_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MathDSA/src/com/ace/GCD_LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RecursionReloaded/out/production/RecursionReloaded/com/ace/Mis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RecursionReloaded/src/com/ace/SubsetsArray.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview150Leetcode/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview150Leetcode/src/com/ace/Sum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview150Leetcode/src/com/ace/Sum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/src/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP/com/ace/Prob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP/com/ace/Sqrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ace/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ace/Prob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ace/Sqrt.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GUI">
+  <component name="RunManager" selected="Application.Name">
     <configuration name="Asdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ace.Asdd" />
       <module name="OOP" />
@@ -140,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ace.Prob" />
+    <configuration name="Name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ace.Name" />
       <module name="OOP" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Name" />
         <item itemvalue="Application.GUI" />
         <item itemvalue="Application.Asdfacac" />
         <item itemvalue="Application.Asdd" />
         <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.Prob" />
       </list>
     </recent_temporary>
   </component>
@@ -197,5 +190,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ace/Name.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
